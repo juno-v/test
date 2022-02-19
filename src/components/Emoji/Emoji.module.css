@@ -1,0 +1,22 @@
+.emojiDivWrapper {
+    width: 100%;
+  }
+  
+  .emojiSpan {
+      border-radius: 2px;
+      width: 30px;
+      height: 30px;
+  }
+
+  .disableDiv {
+    opacity: 0.7;
+    background-color: #36393f;
+  }
+
+  .enableDiv {
+    pointer-events : auto;
+    border-radius: 2px;
+    background-color: #43b581;
+    width: 30px;
+    height: 30px;
+  }

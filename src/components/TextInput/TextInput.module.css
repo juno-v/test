@@ -1,0 +1,20 @@
+@import "../../styles/colors.module.css";
+
+.input {
+  background-color: var(--primary-dark-800);
+  border-radius: 4px;
+  border: none;
+  color: var(--primary-dark-100);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 15px;
+
+  &::placeholder {
+    color: var(--primary-dark-500);
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
